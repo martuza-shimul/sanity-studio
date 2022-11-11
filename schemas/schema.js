@@ -1,5 +1,6 @@
 // First, we must import the schema creator
 import createSchema from "part:@sanity/base/schema-creator";
+
 import animal from "./animal";
 
 // Then import schema types from any plugins that might expose them
