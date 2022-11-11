@@ -13,5 +13,13 @@ export default {
       name: "description",
       type: "text",
     },
+    {
+      title: "Poster",
+      name: "poster",
+      type: "image",
+      options: {
+        hotspot: true, // <-- Defaults to false
+      },
+    },
   ],
 };
